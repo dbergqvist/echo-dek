@@ -1,0 +1,8 @@
+# ignore environment files
+.env
+# ignore python cache files
+__pycache__/
+# ignore python virtual environment
+env/    
+# ignore prompting instructions
+prompt
