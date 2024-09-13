@@ -6,3 +6,7 @@ __pycache__/
 env/    
 # ignore prompting instructions
 prompt
+
+.gpte_consent
+.gpteng/
+
