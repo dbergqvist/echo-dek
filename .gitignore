@@ -4,10 +4,3 @@
 __pycache__/
 # ignore python virtual environment
 env/    
-# ignore prompting instructions
-prompt
-
-.gpte_consent
-.gpteng/
-
-.gitignore
