@@ -1,0 +1,41 @@
+# Remove '#' to select a file or turn off linting.
+
+# Linting with BLACK (Python) enhances code suggestions from LLMs. To disable linting, uncomment the relevant option in the linting settings.
+
+# gpt-engineer can only read selected files. Including irrelevant files will degrade performance, cost additional tokens and potentially overflow token limit.
+
+[linting]
+# "linting" = "off"
+
+[files]
+# LICENSE = "selected"
+# "apple_music.py" = "selected"
+# "models.py" = "selected"
+"requirements.txt" = "selected"
+Dockerfile = "selected"
+cloudbuild.yaml" = "selected"
+# "musicbrainz_client.py" = "selected"
+# "musicbrainz.py" = "selected"
+"Dockerfile.backend" = "selected"
+"run.sh" = "selected"
+# "README.md" = "selected"
+# "apple_music_client.py" = "selected"
+# "package-lock.json" = "selected"
+# "package.json" = "selected"
+# "app.py" = "selected"
+# "spotify.py" = "selected"
+# "spotify_client.py" = "selected"
+"Dockerfile.frontend" = "selected"
+# "routes.py" = "selected"
+# "api/__init__.py" = "selected"
+# "api/music.py" = "selected"
+# "services/apple_music.py" = "selected"
+# "services/musicbrainz.py" = "selected"
+# "services/__init__.py" = "selected"
+# "services/spotify.py" = "selected"
+# "src/routes/index.svelte" = "selected"
+# "src/routes/uris/[album_name].svelte" = "selected"
+# "src/routes/album/[id].svelte" = "selected"
+# "src/routes/albums/[artist_id].svelte" = "selected"
+# "src/routes/artist/[id].svelte" = "selected"
+# 

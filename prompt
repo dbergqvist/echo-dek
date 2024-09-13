@@ -1,0 +1,9 @@
+I want to create a web app that links music between diferent streaming services
+The first critical user journey would be to search for an artist
+When you have selected the artist you are looking for the web app will list all the albums by that artist
+After selecting the album the system will generate the URI for the album on Spotify and Apple Music
+This way friends using different streaming services can easily share albums with each other
+Let's make it stateless in the first version
+Let's get music metadata from MusicBrainz web API
+Let's create the frontend using Sveltekit and the backend using flask
+Let's also make it deployable to Google Cloud Run

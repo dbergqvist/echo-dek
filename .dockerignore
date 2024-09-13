@@ -1,0 +1,15 @@
+_pycache__
+.pyc
+.pyo
+.pyd
+ode_modules
+``
+
+*File: run.sh**
+``diff
+# Run Flask app in the background
+python app.py &
+gunicorn -b 0.0.0.0:8080 app:app &
+
+# Run SvelteKit app in the background
+npm run dev &
